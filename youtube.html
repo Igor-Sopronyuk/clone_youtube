@@ -11,7 +11,11 @@
 <link rel="stylesheet" href="styles/main.css">
 <link rel="stylesheet" href="styles/sidebar.css">
 <link rel="stylesheet" href="styles/video.css">
-
+<style>
+    a:visited {
+        color: rgb(3, 3, 3);
+    }
+</style>
     </head>
     <body>
         
@@ -58,11 +62,19 @@
             </div>
             <div class="sidebar-link">
                 <a href="https://www.youtube.com/feed/subscriptions"><img src="icons/subscriptions.svg" alt=""></a>
-                <div>subscriptions</div>
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/feed/explore"><img src="icons/explore.svg" alt=""></a>
+                <div>Explore</div>
             </div>
             <div class="sidebar-link">
                 <a href="https://www.youtube.com/feed/library"><img src="icons/library.svg" alt=""></a>
                 <div>Library</div>
+            </div>
+            <div class="sidebar-link">
+                <a href="https://music.youtube.com/"><img src="icons/youtube-music.svg" alt=""></a>
+                <div>Youtube music</div>
             </div>
         </div>
         <main>
@@ -70,9 +82,9 @@
             <div class="video-grid">
                 <div class="video-preview">
                     <div class="picture-row">
-                        <a href="https://www.youtube.com/watch?v=k9jMH4rThzY&t=1s">
+                        
                             <img class="video-title" src="pictures/img1.webp" alt="">
-                        </a>
+                        
                         <div class="video-time">14:00</div>
                     </div>
                     <div class="video-info-grid">
@@ -82,11 +94,11 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=k9jMH4rThzY&t=1s">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=k9jMH4rThzY&t=1s">
                                 <p class="video-name">Я прочитал 100 книг по саморазвитию. Вот что я узнал...</p>
                                 <p class="video-author">KRAMARTY TV - Мэтт Д'Авелла на русском</p>
                                 <p class="video-stats">123 тыс. просмотров &#183; 3 недели назад</p>
-                            </a>    
+                            </a>  
                         </div>
                     </div>
                 </div>
@@ -105,7 +117,7 @@
                             </a>   
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=_Zv-r1QltLU">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=_Zv-r1QltLU">
                                 <p class="video-name">ЧЕМ ОТРАВИТЬСЯ, ЧТОБЫ ВЫЖИТЬ?</p>
                                 <p class="video-author">ТОПЛЕС</p>
                                 <p class="video-stats">4,3 млн просмотров &#183; 1 месяц назад</p>
@@ -126,7 +138,7 @@
                                 <img class="profile-pictures" src="icons/unnamed2.jpg">
                             </a> 
                         </div>
-                        <div class="video-info">
+                        <div class="nounderline" class="video-info">
                             <a href="https://www.youtube.com/watch?v=X9qsguVGWws">
                                 <p class="video-name">Сколько стоит неудачный flash arbitrage криптовалюты</p>
                                 <p class="video-author">Yuliya Bedrosova</p>
@@ -150,7 +162,7 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=t9g6rRnQGFQ">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=t9g6rRnQGFQ">
                                 <p class="video-name">Почему я ем одно и то же каждый день.</p>
                                 <p class="video-author">KRAMARTY TV - Мэтт Д'Авелла на русском</p>
                                 <p class="video-stats">118 тыс. просмотров &#183; 12 дней назад</p>
@@ -173,7 +185,7 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=Y1SekvuZ3M4">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=Y1SekvuZ3M4">
                                 <p class="video-name">РЕАЛЬНОЕ СОБЕСЕДОВАНИЕ НА FRONTEND РАЗРАБОТЧИКА.</p>
                                 <p class="video-author">Ulbi TV</p>
                                 <p class="video-stats">500 тыс. просмотров &#183; 2 месяца назад</p>
@@ -196,7 +208,7 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=IDkCt0Ag7Og">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=IDkCt0Ag7Og">
                                 <p class="video-name">Хоу Ифань РВЁТ Шахматистов!</p>
                                 <p class="video-author">ChessMaster</p>
                                 <p class="video-stats">1,1 млн просмотров &#183; 5 лет назад</p>
@@ -219,7 +231,7 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=nLSHg6AeMZo">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=nLSHg6AeMZo">
                                 <p class="video-name">Обустройство и жизнь в Канаде.</p>
                                 <p class="video-author">ИНТЕРЕСНАЯ КАНАДА. Глеб Кобец</p>
                                 <p class="video-stats">321 тыс. просмотров &#183; 7 недели назад</p>
@@ -242,7 +254,7 @@
                             </a>
                         </div>
                         <div class="video-info">
-                            <a href="https://www.youtube.com/watch?v=9sTNFyVy2XI">
+                            <a class="nounderline" href="https://www.youtube.com/watch?v=9sTNFyVy2XI">
                                 <p class="video-name">Серые Самсунги в России теперь кирпич?</p>
                                 <p class="video-author">Wylsacom</p>
                                 <p class="video-stats">353 тыс. просмотров &#183; 1 неделя назад</p>
