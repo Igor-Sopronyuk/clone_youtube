@@ -1,0 +1,144 @@
+.header {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-bottom-style: 1px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 8px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.hamburger {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.you-logo {
+    height: 20px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    align-items: center;
+}
+.search-bar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: rgba(238, 238, 238, 0.2) 0px 1px 2px 0px inset;
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-icon {
+    height: 24px;
+}
+.search-button {
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 65px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(192, 192, 192);
+    margin-right: 10px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.search-button,
+.voice-search-button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.voise-search-icon {
+    height: 24px;
+    cursor: pointer;
+}
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(246, 246, 246);
+}
+.search-button .tooltip,
+.voice-search-button .tooltip {
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.9);
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    bottom: -50px;
+    opacity: 0;
+    pointer-events: none;
+}
+.voice-search-button:hover .tooltip,
+.search-button:hover .tooltip {
+    opacity: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.right-section {
+    width: 180px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.uploud-icon,
+.youtube-apps-icon,
+.notification-icon {
+    height: 32px;
+    cursor: pointer;
+}
+.user-picture {
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.notifications {
+    position: relative;
+
+}
+.notifications-count {
+    
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
